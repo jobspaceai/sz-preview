@@ -45,6 +45,8 @@
     perCabin: 'per cabin (sleeps 2)', perCabinShort: 'per cabin',
     sharedNote: 'You share the boat with other guests. Price per person.',
     privateNoteFallback: 'The whole boat is yours.',
+    privacyLine: 'We use your details only to handle this booking.',
+    privacyLabel: 'Privacy policy',
     guests: 'Guests', request: 'Request to book', kidsNote: 'Kids sail at the adult rate; we confirm any small-child discount with the offer.'
   };
   function T(k) { return (I18N[k] !== undefined ? I18N[k] : EN[k]); }
@@ -208,6 +210,13 @@
 
   function svgOk() { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>'; }
 
+  // privacy-policy URL for the current locale (footer link already carries
+  // the right locale prefix and base path — reuse it)
+  function privacyHref() {
+    var a = document.querySelector('a[href*="privacy-policy"]');
+    return a ? a.getAttribute('href') : '/privacy-policy/';
+  }
+
   // short price tag for the tour picker rows
   function tinyPrice(t) {
     var p = t.pricing;
@@ -301,6 +310,8 @@
           '<div class="seg-note" data-bk-paynote>' + esc(state.payment === 'card' ? T('payCardNote') : T('payBoardNote')) + '</div></div>' +
         '<div class="bk-row"><label for="bk-note">' + esc(T('note')) + ' <span class="mute">' + esc(T('optional')) + '</span></label>' +
           '<textarea id="bk-note" placeholder="' + esc(T('notePh')) + '">' + esc(state.note) + '</textarea></div>' +
+        '<p class="bk-trust" style="text-align:left">' + esc(T('privacyLine')) + ' ' +
+          '<a href="' + esc(privacyHref()) + '" target="_blank" rel="noopener">' + esc(T('privacyLabel')) + '</a></p>' +
       '</form>' +
       '</div>' +
 
