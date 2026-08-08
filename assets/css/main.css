@@ -327,6 +327,18 @@ p { margin: 0 0 1em; }
 .compare td a { font-weight: 700; color: var(--accent-ink); text-decoration: none; }
 .compare td a:hover { text-decoration: underline; }
 
+/* fleet rows — responsive (inline styles used to break mobile) */
+.fleet-row {
+  display: grid; grid-template-columns: minmax(0, 1fr) 440px;
+  gap: clamp(1.6rem, 4vw, 4rem); align-items: start; margin-bottom: 4rem;
+}
+.fleet-row.rev { grid-template-columns: 440px minmax(0, 1fr); }
+@media (max-width: 1020px) {
+  .fleet-row, .fleet-row.rev { grid-template-columns: 1fr; margin-bottom: 3rem; }
+}
+.price-cards.cols-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 900px) { .price-cards.cols-2 { grid-template-columns: 1fr; } }
+
 /* fleet spec grid */
 .spec-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -567,6 +579,8 @@ input:focus, select:focus, textarea:focus {
 /* ---------- footer ---------- */
 footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(255,255,255,.78); margin-top: 0; }
 .foot { display: grid; grid-template-columns: 2fr 1fr 1fr 1.4fr; gap: 2.4rem; padding-block: 3.6rem 2.4rem; }
+.foot-slim { grid-template-columns: 1.6fr 1fr 1.3fr; }
+@media (max-width: 700px) { .foot-slim { grid-template-columns: 1fr; gap: 1.8rem; padding-block: 2.6rem 1.8rem; } }
 .foot h4 { color: #fff; font-size: 1rem; margin-bottom: .9rem; }
 .foot a { color: rgba(255,255,255,.78); text-decoration: none; display: block; padding: .22rem 0; font-size: .95rem; }
 .foot a:hover { color: #fff; }
