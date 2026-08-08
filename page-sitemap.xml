@@ -1586,6 +1586,9 @@
   <url>
     <loc>https://sailingzadar.com/zadar-neighbourhoods-guide/</loc>
     <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/zadar-neighbourhoods-guide/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/zadarske-gradske-cetvrti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/zadar-neighbourhoods-guide/"/>
   </url>
   <url>
     <loc>https://sailingzadar.com/nin-church-holy-cross-sundial/</loc>
@@ -2079,6 +2082,9 @@
   <url>
     <loc>https://sailingzadar.com/hr/zadarske-gradske-cetvrti/</loc>
     <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/zadar-neighbourhoods-guide/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/zadarske-gradske-cetvrti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/zadar-neighbourhoods-guide/"/>
   </url>
   <url>
     <loc>https://sailingzadar.com/hr/nin-crkva-svetog-kriza-suncani-sat/</loc>
