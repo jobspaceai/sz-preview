@@ -311,6 +311,15 @@ p { margin: 0 0 1em; }
 @media (max-width: 760px) { .inc-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .inc-grid { grid-template-columns: 1fr; } }
 
+/* comparison table (hub page) */
+.compare-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--paper-raise); box-shadow: var(--shadow-sm); }
+.compare { width: 100%; border-collapse: collapse; min-width: 640px; }
+.compare th, .compare td { padding: .85rem 1.1rem; text-align: left; font-size: .96rem; }
+.compare thead th { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-mute); border-bottom: 1px solid var(--line); }
+.compare tbody tr + tr td { border-top: 1px solid var(--line); }
+.compare td a { font-weight: 700; color: var(--accent-ink); text-decoration: none; }
+.compare td a:hover { text-decoration: underline; }
+
 /* fleet spec grid */
 .spec-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
