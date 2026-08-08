@@ -31,9 +31,14 @@
       if (stored) return; // user already chose once — respect it, no nagging
       var dev = (navigator.language || 'en').slice(0, 2).toLowerCase();
       if (SUPPORTED.indexOf(dev) === -1 || dev === cur) return;
-      var ddEl = document.querySelector('[data-lang-dd]');
-      var slug = ddEl ? (ddEl.dataset.slug || '') : '';
-      var target = '/' + (dev === 'en' ? '' : dev + '/') + (slug ? slug + '/' : '');
+      // take the target URL from the language dropdown: those links already
+      // carry the correct base path (e.g. /sz-preview/ on GitHub Pages)
+      var menuLink = Array.prototype.slice.call(document.querySelectorAll('.lang-menu a')).find(function (a) {
+        var c = a.querySelector('.code');
+        return c && c.textContent.trim().toLowerCase() === dev;
+      });
+      if (!menuLink) return;
+      var target = menuLink.getAttribute('href');
       var m = MSG[dev];
 
       var bar = document.createElement('div');
@@ -74,10 +79,12 @@
         if (e.key === 'Escape') { dd.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
       });
       // manual choice from the dropdown = durable preference
+      // (read the language from the link's code label — href may carry a base path)
       dd.querySelectorAll('.lang-menu a').forEach(function (a) {
         a.addEventListener('click', function () {
-          var mHref = a.getAttribute('href').match(/^\/([a-z]{2})\//);
-          try { localStorage.setItem('sz-lang', mHref ? mHref[1] : 'en'); } catch (e) {}
+          var c = a.querySelector('.code');
+          var code = c ? c.textContent.trim().toLowerCase() : 'en';
+          try { localStorage.setItem('sz-lang', code); } catch (e) {}
         });
       });
     }
