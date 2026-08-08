@@ -771,3 +771,19 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
   }
   .article-cta{ max-width:1060px; }
 }
+
+/* Oznaka privremene slike: vidljiva vrpca preko kadra dok se ne snimi prava fotografija */
+.post figure.is-temp,
+.thero-media.is-temp { position: relative; }
+.post figure.is-temp::before,
+.thero-media.is-temp::before {
+  content: attr(data-temp);
+  position: absolute; z-index: 3; top: 12px; left: 12px;
+  padding: .38rem .7rem;
+  font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+  color: #fff; background: rgba(200, 60, 40, .92);
+  border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.25);
+  pointer-events: none;
+}
+.post figure.is-temp img,
+.thero-media.is-temp img { outline: 3px dashed rgba(200,60,40,.55); outline-offset: -3px; }
