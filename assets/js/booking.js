@@ -32,7 +32,7 @@
     note: 'Anything we should know?', optional: '(optional)',
     notePh: 'Allergies, a birthday, a proposal…',
     send: 'Send request', sending: 'Sending…',
-    trust: 'We confirm within 2 hours (09:00-22:00 CET).',
+    trust: 'Final price, nothing extra on board. We confirm within 2 hours (09:00-22:00 CET).',
     errFirst: 'Your first name, please.', errLast: 'And your last name.',
     errPhone: 'A number with country code, so we can reach you.',
     errEmail: 'This email does not look right.',

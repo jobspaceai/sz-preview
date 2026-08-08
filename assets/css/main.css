@@ -612,7 +612,10 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
 .post > p:first-child { font-size: 1.22rem; color: var(--ink-soft); }
 .post h2 { margin-top: 2.4rem; padding-top: .4rem; }
 .post figure { margin: 2rem 0; }
-.post figure img { width: 100%; border-radius: 16px; aspect-ratio: 16/9; object-fit: cover; box-shadow: var(--shadow-sm); }
+.post figure img { width: 100%; border-radius: 16px; aspect-ratio: 3/2; object-fit: cover; box-shadow: var(--shadow-sm); }
+.post figure.tall { display: flex; flex-direction: column; align-items: center; }
+.post figure.tall img { aspect-ratio: 3/4; max-width: 460px; }
+.post figure.tall figcaption { max-width: 460px; }
 .post figcaption { font-size: .86rem; color: var(--ink-mute); margin-top: .5rem; }
 .post blockquote {
   margin: 2rem 0; padding: 1.3rem 1.6rem; border-left: 4px solid var(--sun);
@@ -655,4 +658,31 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
   .rv { opacity: 1; transform: none; transition: none; }
   .sheet { animation: none; }
   .tour-card, .tour-card:hover, .tour-img img { transition: none; transform: none; }
+}
+
+/* Cijena je konačna - napomena ispod "što je uključeno" */
+.allin{
+  margin-top:18px;
+  padding:14px 16px;
+  border-left:3px solid var(--pine);
+  background:color-mix(in srgb, var(--pine) 7%, transparent);
+  border-radius:0 10px 10px 0;
+  font-size:.95rem;
+  color:var(--ink);
+  max-width:66ch;
+}
+.map-link{
+  display:inline-flex;align-items:center;gap:.4rem;
+  font-weight:600;color:var(--accent);text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.map-link:hover{border-bottom-color:var(--accent)}
+
+/* Atribucija naslovne fotografije članka */
+.post p.hero-credit{
+  font-size:.82rem;
+  color:var(--ink-mute);
+  margin:2.4rem 0 0;
+  padding-top:1rem;
+  border-top:1px solid color-mix(in srgb, var(--ink) 12%, transparent);
 }
