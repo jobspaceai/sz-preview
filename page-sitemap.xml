@@ -1525,6 +1525,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
   </url>
   <url>
@@ -1536,6 +1537,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
   </url>
   <url>
@@ -1547,6 +1549,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
   <url>
@@ -1554,8 +1557,6 @@
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
     <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
@@ -1776,6 +1777,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
   </url>
   <url>
@@ -1787,6 +1789,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
   <url>
@@ -1802,6 +1805,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
   </url>
   <url>
@@ -1828,6 +1832,10 @@
     <lastmod>2026-08-08</lastmod>
   </url>
   <url>
+    <loc>https://sailingzadar.com/it/organo-marino-zara/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
     <loc>https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/</loc>
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
@@ -1836,29 +1844,8 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
-  </url>
-  <url>
-    <loc>https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/sakarun-plaza-brodom/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/sakarun-strand-mit-dem-boot/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
-  </url>
-  <url>
-    <loc>https://sailingzadar.com/it/organo-marino-zara-dal-mare/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
   </url>
   <url>
     <loc>https://sailingzadar.com/it/telascica-parco-naturale-in-barca/</loc>
@@ -1869,7 +1856,24 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/sakarun-plaza-brodom/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/sakarun-strand-mit-dem-boot/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/it/isole-arcipelago-di-zara/</loc>
+    <lastmod>2026-08-08</lastmod>
   </url>
   <url>
     <loc>https://sailingzadar.com/it/baie-nascoste-zara-in-barca/</loc>
@@ -1883,6 +1887,26 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/best-bays-near-zadar-by-boat/"/>
   </url>
   <url>
+    <loc>https://sailingzadar.com/es/dugi-otok-guia/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/playas-de-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/nin-iglesia-santa-cruz-reloj-solar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/casco-antiguo-zadar-desde-el-mar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/organo-de-mar-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
     <loc>https://sailingzadar.com/es/islas-kornati-en-velero/</loc>
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
@@ -1891,29 +1915,8 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
-  </url>
-  <url>
-    <loc>https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
-  </url>
-  <url>
-    <loc>https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
-    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/sakarun-plaza-brodom/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/sakarun-strand-mit-dem-boot/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
-    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
   <url>
     <loc>https://sailingzadar.com/es/telascica-parque-natural-en-barco/</loc>
@@ -1924,7 +1927,32 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/isla-ugljan-guia/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/sakarun-plaza-brodom/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/sakarun-strand-mit-dem-boot/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/islas-del-archipielago-de-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/isla-pasman-guia/</loc>
+    <lastmod>2026-08-08</lastmod>
   </url>
   <url>
     <loc>https://sailingzadar.com/es/calas-escondidas-zadar-en-barco/</loc>
@@ -1938,6 +1966,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/best-bays-near-zadar-by-boat/"/>
   </url>
   <url>
+    <loc>https://sailingzadar.com/es/barrios-de-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/cuando-navegar-en-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/pecios-archipielago-zadar/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/tuneles-militares-dugi-otok/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/zadar-subterraneo-segunda-guerra-mundial/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/fortaleza-san-miguel-ugljan/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/faro-de-veli-rat/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/es/vientos-del-adriatico-bura-jugo-maestral/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
     <loc>https://sailingzadar.com/da/kornati-nationalpark-sejltur/</loc>
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
@@ -1946,6 +2006,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
   </url>
   <url>
@@ -1957,6 +2018,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
   <url>
@@ -1964,8 +2026,6 @@
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
     <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
@@ -1979,6 +2039,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
   </url>
   <url>
@@ -2001,6 +2062,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
   </url>
   <url>
@@ -2012,6 +2074,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
   </url>
   <url>
@@ -2023,6 +2086,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
   <url>
@@ -2030,8 +2094,6 @@
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
     <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
@@ -2264,10 +2326,44 @@
     <lastmod>2026-08-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
     <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/morske-orgulje-zalazak-s-mora/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/organo-marino-zara-dal-mare/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/que-ver-en-zadar-desde-el-mar/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/zadar-fra-havet-sevaerdigheder/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/orgue-de-mer-zadar-depuis-la-mer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sea-organ-zadar-from-the-water/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/fr/iles-kornati-en-voilier/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/kornati-izlet-jedrilicom/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/kornati-nationalpark-segeltoern/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/isole-incoronate-in-barca-a-vela/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/islas-kornati-en-velero/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/kornati-nationalpark-sejltur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/iles-kornati-en-voilier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/kornati-islands-sailing-from-zadar/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/telascica-brodom/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/telascica-naturpark-mit-dem-boot/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/telascica-parco-naturale-in-barca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/telascica-parque-natural-en-barco/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/telascica-naturpark-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/telascica-parc-naturel-en-bateau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/telascica-nature-park-by-boat/"/>
+  </url>
+  <url>
+    <loc>https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://sailingzadar.com/hr/sakarun-plaza-brodom/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sailingzadar.com/de/sakarun-strand-mit-dem-boot/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sailingzadar.com/it/dugi-otok-e-sakarun-in-barca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sailingzadar.com/es/playa-sakarun-dugi-otok-en-barco/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://sailingzadar.com/da/dugi-otok-og-sakarun-med-baad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sailingzadar.com/fr/plage-sakarun-dugi-otok-en-bateau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sailingzadar.com/sakarun-beach-dugi-otok/"/>
   </url>
 </urlset>

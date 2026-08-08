@@ -79,7 +79,7 @@
 
   function priceInfo() {
     var t = tour();
-    if (!t) return { label: '—', per: T('selectTour') };
+    if (!t) return { label: '', per: T('selectTour') };
     var p = t.pricing;
     if (p.mode === 'quote') return { label: p.quoteLabel || 'Price on request', per: T('quoteReply') };
     if (state.type === 'private' || p.mode === 'private') {
