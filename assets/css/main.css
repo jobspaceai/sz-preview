@@ -591,6 +591,22 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
 @media (max-width: 860px) { .foot { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .foot { grid-template-columns: 1fr; } }
 
+/* rating summary bar (real GetYourGuide data) */
+.rating-bar {
+  display: flex; align-items: center; gap: clamp(1.2rem, 4vw, 3rem); flex-wrap: wrap;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16);
+  border-radius: 16px; padding: 1.2rem 1.5rem; margin-bottom: 1.6rem;
+}
+.rb-score .n { font-family: var(--font-display); font-size: 2.6rem; font-weight: 600; color: var(--sun); }
+.rb-score .max { color: rgba(255,255,255,.6); font-weight: 600; }
+.rb-score .src { display: block; font-size: .84rem; color: rgba(255,255,255,.66); margin-top: .1rem; }
+.rb-subs { display: flex; gap: 1.6rem; flex-wrap: wrap; }
+.rb-subs div { display: flex; flex-direction: column; }
+.rb-subs .l { font-size: .76rem; text-transform: uppercase; letter-spacing: .05em; color: rgba(255,255,255,.6); }
+.rb-subs .v { font-weight: 800; font-size: 1.15rem; color: #fff; }
+.review .tr { font-size: .92rem; color: rgba(255,255,255,.68); font-style: italic; margin-top: -.3rem; }
+.review .tr .tag { font-style: normal; font-size: .76rem; opacity: .7; }
+
 /* blog article formatting */
 .post { font-size: 1.08rem; }
 .post > p:first-child { font-size: 1.22rem; color: var(--ink-soft); }
