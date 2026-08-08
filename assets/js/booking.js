@@ -42,6 +42,7 @@
     hurry: 'In a hurry? Message us directly:', waBtn: 'Open WhatsApp',
     selectTour: 'Select a tour', quoteReply: 'We reply with a firm quote',
     perBoat: 'per boat, up to {n} guests', perPerson: 'per person',
+    perCabin: 'per cabin (sleeps 2)', perCabinShort: 'per cabin',
     sharedNote: 'You share the boat with other guests. Price per person.',
     privateNoteFallback: 'The whole boat is yours.',
     guests: 'Guests', request: 'Request to book', kidsNote: 'Kids sail at the adult rate; we confirm any small-child discount with the offer.'
@@ -81,6 +82,11 @@
     if (p.mode === 'quote') return { label: p.quoteLabel || 'Price on request', per: T('quoteReply') };
     if (state.type === 'private' || p.mode === 'private') {
       return { label: '€' + p.privateFrom, per: fill(T('perBoat'), t.maxGuests) };
+    }
+    if (p.mode === 'perCabin') {
+      var perCab = p.guestsPerCabin || 2;
+      var cabins = Math.max(1, Math.ceil(guestsTotal() / perCab));
+      return { label: '€' + (cabins * p.cabinPrice), per: '€' + p.cabinPrice + ' ' + T('perCabin') + ' × ' + cabins };
     }
     var tot = p.groupPerPerson * guestsTotal();
     return { label: '€' + tot, per: '€' + p.groupPerPerson + ' ' + T('perPerson') + ' × ' + guestsTotal() };
@@ -207,6 +213,7 @@
     var p = t.pricing;
     if (p.mode === 'quote') return p.quoteLabel || '';
     if (p.mode === 'private') return '€' + p.privateFrom;
+    if (p.mode === 'perCabin') return '€' + p.cabinPrice + ' ' + T('perCabinShort');
     return '€' + p.groupPerPerson + ' ' + T('perPerson');
   }
 
@@ -440,13 +447,39 @@
       btn.disabled = true;
       btn.innerHTML = '<span class="spin"></span> ' + esc(T('sending'));
 
-      setTimeout(function () {
-        var ref = 'SZ-' + new Date().toISOString().slice(2, 10).replace(/-/g, '') + '-' + Math.floor(100 + Math.random() * 900);
+      function showSuccess(ref) {
         sheetWrap.querySelector('.sheet').innerHTML = successHTML(ref);
         sheetWrap.querySelectorAll('[data-close]').forEach(function (el) {
           el.addEventListener('click', closeSheet);
         });
-      }, 900);
+      }
+      function localRef() {
+        return 'SZ-' + new Date().toISOString().slice(2, 10).replace(/-/g, '') + '-' + Math.floor(100 + Math.random() * 900);
+      }
+
+      // Send to the booking API. If Stripe checkout applies, the server
+      // returns checkoutUrl and we redirect. On static hosting (no API)
+      // we fall back to the local demo confirmation.
+      var payload = {
+        tourId: state.tourId, date: state.date,
+        adults: state.adults, children: state.children, childAges: state.childAges,
+        type: state.type, firstName: state.firstName, lastName: state.lastName,
+        phone: state.phone, email: state.email, channel: state.channel,
+        payment: state.payment, note: state.note
+      };
+      fetch((window.SZ_API || '') + '/api/booking', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (r) {
+        if (!r.ok) throw new Error('api');
+        return r.json();
+      }).then(function (d) {
+        if (d.checkoutUrl) { window.location.href = d.checkoutUrl; return; }
+        showSuccess(d.ref || localRef());
+      }).catch(function () {
+        setTimeout(function () { showSuccess(localRef()); }, 500);
+      });
     });
   }
 
