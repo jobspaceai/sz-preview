@@ -109,3 +109,49 @@
     }, 2500);
   });
 })();
+
+/* Kalendar regata: prikazuje tekući i sljedeća dva mjeseca, uz izbornik za ostale.
+   Bez JS-a ostaje sve vidljivo, pa Google i stariji preglednici vide cijelu godinu. */
+(function () {
+  var picker = document.querySelector('[data-regcal-picker]');
+  var wrap = document.querySelector('[data-regcal-months]');
+  if (!picker || !wrap) return;
+
+  var blocks = [].slice.call(document.querySelectorAll('.regcal-mblock'));
+  var chips = [].slice.call(picker.querySelectorAll('button[data-mj]'));
+  var allBtn = picker.querySelector('[data-all]');
+  var sel = null; // null znači "zadano: tekući i sljedeća dva"
+
+  function defaultMonths() {
+    var m = new Date().getMonth() + 1;
+    return [m, m % 12 + 1, (m + 1) % 12 + 1];
+  }
+
+  function apply() {
+    var show = sel === 'all' ? null : (sel || defaultMonths());
+    blocks.forEach(function (b) {
+      var mj = parseInt(b.getAttribute('data-mj'), 10);
+      b.hidden = show ? show.indexOf(mj) === -1 : false;
+    });
+    chips.forEach(function (c) {
+      var mj = parseInt(c.getAttribute('data-mj'), 10);
+      c.setAttribute('aria-pressed', String(!!show && show.indexOf(mj) !== -1));
+    });
+    if (allBtn) allBtn.setAttribute('aria-pressed', String(sel === 'all'));
+  }
+
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      var mj = parseInt(c.getAttribute('data-mj'), 10);
+      var cur = sel === 'all' || !sel ? [] : sel.slice();
+      var i = cur.indexOf(mj);
+      if (i === -1) cur.push(mj); else cur.splice(i, 1);
+      sel = cur.length ? cur : null;
+      apply();
+    });
+  });
+  if (allBtn) allBtn.addEventListener('click', function () { sel = sel === 'all' ? null : 'all'; apply(); });
+
+  picker.hidden = false;
+  apply();
+})();

@@ -787,3 +787,20 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
 }
 .post figure.is-temp img,
 .thero-media.is-temp img { outline: 3px dashed rgba(200,60,40,.55); outline-offset: -3px; }
+
+/* Kalendar regata: izbornik mjeseci */
+.regcal-picker{ margin:1.6rem 0 .4rem; }
+.regcal-picker .rp-h{
+  margin:0 0 .55rem; font-size:.74rem; letter-spacing:.13em; text-transform:uppercase;
+  font-weight:700; color:var(--ink-mute);
+}
+.rp-chips{ display:flex; flex-wrap:wrap; gap:.4rem; }
+.rp-chips button{
+  appearance:none; cursor:pointer; font:inherit; font-size:.86rem; font-weight:700;
+  padding:.42rem .78rem; border-radius:999px;
+  border:1px solid var(--line); background:var(--paper-raise); color:var(--ink-soft);
+  transition:background .15s ease, color .15s ease, border-color .15s ease;
+}
+.rp-chips button:hover{ border-color:var(--accent); color:var(--accent-ink); }
+.rp-chips button[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:#fff; }
+.rp-chips .rp-all{ margin-left:.3rem; }
