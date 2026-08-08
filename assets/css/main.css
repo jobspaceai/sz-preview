@@ -804,3 +804,19 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
 .rp-chips button:hover{ border-color:var(--accent); color:var(--accent-ink); }
 .rp-chips button[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:#fff; }
 .rp-chips .rp-all{ margin-left:.3rem; }
+
+/* Traka srodnih stranica */
+.related-h{
+  font-size:.76rem; letter-spacing:.14em; text-transform:uppercase; font-weight:800;
+  color:var(--ink-mute); margin:0 0 1rem;
+}
+.related-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.9rem; }
+.related-card{
+  display:flex; flex-direction:column; gap:.3rem; text-decoration:none;
+  padding:1rem 1.15rem; border-radius:16px;
+  border:1px solid var(--line); background:var(--paper-raise);
+  transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+}
+.related-card:hover{ transform:translateY(-2px); box-shadow:var(--shadow-md); border-color:var(--accent); }
+.related-card .rc-t{ font-weight:800; color:var(--ink); font-size:1rem; line-height:1.25; }
+.related-card .rc-d{ font-size:.85rem; color:var(--ink-mute); line-height:1.45; }
