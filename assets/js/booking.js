@@ -199,8 +199,10 @@
     var segNote = document.querySelector('[data-bk-segnote]');
     var t = tour();
     if (segNote && t) {
+      // privateNote in data is English-only; translated pages use the localized fallback
+      var isLocalized = I18N && Object.keys(I18N).length > 0;
       segNote.textContent = state.type === 'private'
-        ? (t.pricing.privateNote || T('privateNoteFallback'))
+        ? (isLocalized ? T('privateNoteFallback') : (t.pricing.privateNote || T('privateNoteFallback')))
         : T('sharedNote');
     }
   }

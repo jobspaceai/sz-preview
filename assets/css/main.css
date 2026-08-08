@@ -311,6 +311,13 @@ p { margin: 0 0 1em; }
 @media (max-width: 760px) { .inc-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .inc-grid { grid-template-columns: 1fr; } }
 
+/* embedded marina map */
+.map-wrap {
+  border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+  box-shadow: var(--shadow-sm); margin-top: 1.1rem;
+}
+.map-wrap iframe { display: block; width: 100%; height: 340px; border: 0; }
+
 /* comparison table (hub page) */
 .compare-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--paper-raise); box-shadow: var(--shadow-sm); }
 .compare { width: 100%; border-collapse: collapse; min-width: 640px; }
