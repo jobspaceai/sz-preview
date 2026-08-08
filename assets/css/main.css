@@ -311,6 +311,17 @@ p { margin: 0 0 1em; }
 @media (max-width: 760px) { .inc-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .inc-grid { grid-template-columns: 1fr; } }
 
+/* notes box — practical warnings before boarding */
+.notice {
+  background: var(--sun-soft); border: 1px solid #ecd9a8; border-radius: 16px;
+  padding: 1.4rem 1.5rem;
+}
+.notice h2 { font-size: 1.25rem !important; display: flex; align-items: center; gap: .6rem; }
+.notice h2::before { content: "☀"; color: var(--sun); font-size: 1.3rem; }
+.notice ul { list-style: none; margin: .6rem 0 0; padding: 0; display: grid; gap: .65rem; }
+.notice li { padding-left: 1.4rem; position: relative; color: var(--ink-soft); font-size: .99rem; }
+.notice li::before { content: ""; position: absolute; left: 0; top: .48em; width: 8px; height: 8px; border-radius: 50%; background: var(--sun); }
+
 /* gallery */
 .gallery { display: grid; grid-template-columns: 2fr 1fr; gap: 1rem; }
 .gallery img { border-radius: var(--radius); object-fit: cover; width: 100%; height: 100%; aspect-ratio: 4/3; }
