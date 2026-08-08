@@ -549,6 +549,20 @@ footer { background: linear-gradient(180deg, var(--ink), #0a1f2d); color: rgba(2
 @media (max-width: 860px) { .foot { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .foot { grid-template-columns: 1fr; } }
 
+/* language suggestion banner */
+.lang-banner {
+  position: fixed; top: 80px; left: 50%; transform: translateX(-50%); z-index: 40;
+  display: flex; align-items: center; gap: .9rem; flex-wrap: wrap; justify-content: center;
+  max-width: min(92vw, 560px);
+  background: var(--paper-raise); border: 1px solid var(--line); border-radius: 16px;
+  padding: .9rem 1.2rem; box-shadow: var(--shadow-lg);
+  animation: banner-in .3s cubic-bezier(.16,1,.3,1);
+}
+.lang-banner span { font-weight: 700; }
+.lang-banner .btn { padding: .5rem 1.1rem; font-size: .92rem; }
+@keyframes banner-in { from { opacity: 0; transform: translateX(-50%) translateY(-10px); } to { opacity: 1; transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .lang-banner { animation: none; } }
+
 /* ---------- reveal on scroll ---------- */
 .rv { opacity: 0; transform: translateY(22px); transition: opacity .6s cubic-bezier(.16,1,.3,1), transform .6s cubic-bezier(.16,1,.3,1); }
 .rv.in { opacity: 1; transform: none; }
